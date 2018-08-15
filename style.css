@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url('img/tra5.png')
+    
+}
+.overlayy{
+position: absolute;
+background-color: rgba(27, 38, 75, 0.7);
+width: 100%;
+height: 91%;
+opacity: 0.8;
+}
+.hub{
+    text-align: center;
+    margin: auto;
+    z-index: +1;
+}
+.p-36{
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+}
+.p-18{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400; 
+}
+ol{
+    padding: 20px; 
+    list-style-type: decimal;
+}
+.li{
+    float: left;
+    margin: 0 10px;
+    padding: 0 15px;
+}
+
+.shape{
+    max-width: 480px;
+}
+.shap{
+    width:1200px
+}
+.grey{
+    background-color:rgba(196, 196, 196, 0.25)
+}
+.move{
+    /* margin-left: 100px; */
+}
+.box{
+    background-color: #ffffff;
+    /* box-shadow:2px 2px 2px  #C4C4C4; */
+    padding: 75px 100px 50px 100px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+input[type=radio] {
+    border: 0px !important;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(2.0); /* Chrome, Safari, Opera */
+    transform:scale(2.0);
+    margin-top: 5px;
+}
+.form-check{
+    
+    padding: 15px;
+}
+.btn-submit{
+    background-color: #1B264B;
+    color: white;
+    /* padding: 5px; */
+    width: 130px;
+}
+.btn-cat{
+    border: 1px solid #CFD0D7;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        padding: 5px;
+        border: none;
+        box-shadow: none;
+    }
+    form-group{
+        /* width: 100%; */
+    }
+}
