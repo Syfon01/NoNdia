@@ -382,3 +382,60 @@ hr{
      }
  }
   
+
+ /* Directory Listing CSS */
+ .incubate {
+    background: linear-gradient(rgba(27, 38, 75, 0.7), rgba(27, 38, 75, 0.7)), url('../img/akwa.jpeg') no-repeat;
+    background-size: cover;
+    height:600px;
+  }
+  .explore {
+      margin-top: 200px;
+  }
+  .nav {
+      background-color: #EFEEEE;
+  }
+  .nav a {
+      color: #1B264B !important;
+  }
+  .nav a:active {
+      color: #fff !important;
+      background-color: #1E3272 !important;
+  }
+  .vert-line {
+      border-left: 3px solid #CB1010;
+      height: 25px;
+      position: absolute;
+      margin-left: -3px;
+  }
+  .memb2 {
+      height: 11px;
+      width: 11px;   
+  }
+  .members {
+      font-size: 0.7em;
+     
+  }
+  .join {
+      float: right;
+      font-size: 0.8em;
+      color: #CB1010;
+  }
+  .join:hover {
+      text-decoration: none;
+      color: rgb(136, 33, 33);
+  }
+  .card-img-top {
+    height: 200px;
+  }
+  .toggle1{
+      height: 40px;
+      width: 40px;   
+  }
+  .reddish {
+      color: #CB1010;
+  }
+  .listing {
+      float: right;
+  }
+/* End of Directory Listing CSS */
