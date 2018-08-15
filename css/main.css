@@ -389,13 +389,13 @@ hr{
   .explore {
       margin-top: 200px;
   }
-  .nav {
+  .navdir {
       background-color: #EFEEEE;
   }
-  .nav a {
+  .navdir a {
       color: #1B264B !important;
   }
-  .nav a:active {
+  .navdir a:active {
       color: #fff !important;
       background-color: #1E3272 !important;
   }
