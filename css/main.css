@@ -257,10 +257,10 @@
 #about{
     background: linear-gradient(rgba(27, 38, 75, 0.7), rgba(27, 38, 75, 0.7)), url('../img/about-hero.png') no-repeat fixed;
     background-size: cover;
-    height: 600px;
+    height: 400px;
 }
 .about-h4 {
-    padding-top:250px !important;
+    padding-top:90px !important;
     font-size:45px;
 }
 
