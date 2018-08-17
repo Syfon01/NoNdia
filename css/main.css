@@ -323,6 +323,74 @@
 .light.active:hover{
     background-color:#1B264B !important;
 } */
+/* about section */
+#about{
+    background: linear-gradient(rgba(27, 38, 75, 0.7), rgba(27, 38, 75, 0.7)), url('../img/about-hero.png') no-repeat fixed;
+    background-size: cover;
+    height: 400px;
+}
+.about-h4 {
+    padding-top:90px !important;
+    font-size:45px;
+}
+
+.text-about{
+    font-size:16px;
+}
+.about-hr{
+    width:14%;
+    background-color: #C4C4C4;
+    height: 1%;
+    position: relative;
+    left:-43%;
+}
+.h3-about{
+    color:#1B264B;
+}
+ 
+.text-about-p{
+    color:#3C3737;
+}
+.mission-icons{
+    display: inline-block;
+    list-style: none;
+    margin-right:50px;
+}
+.mission-text{
+    margin-left:-20px;
+}
+.mission-icon{
+    box-shadow:2px 2px 5px 2px rgb(197, 197, 197);
+    width: 82%;  
+}
+.vision-hr{
+    width:12%;
+    background-color: #C4C4C4;
+    height: 5%;
+    align-content: center;
+    position: relative;
+    right:43%;
+}
+.vision-icons{
+    list-style: none;
+    display: inline-block;
+}
+.vision-icon{
+    box-shadow:2px 2px 5px 2px rgb(197, 197, 197);
+    width: 82%; 
+    margin-right:40px; 
+}
+#people{
+    background-color:rgba(196, 196, 196, 0.13);
+    padding:40px;
+}
+.people-1{
+    background-color:rgba(0, 0, 0, 0.25) !important;
+}
+
+
+
+
 #footer{
     background-color: #282D3E;
     color:#ffffff;
@@ -335,7 +403,7 @@ li{
     list-style: none;
 
 }
-hr{
+.hr{
     position: relative;
     right:50px;
     width: 50px;
@@ -390,7 +458,7 @@ hr{
     .mem{
          font-size:26px;
      }
-     .what-promote, .made-img{ 
+       .made-img{ 
          position: relative;
          left:43%;
          
@@ -436,7 +504,7 @@ hr{
          padding-top:35px;
      }
      .project{
-         height: 4%;
+         height:5%;
      }
      .count-text{
          font-size: 12px;
@@ -447,8 +515,60 @@ hr{
      .btn-subscribe{
         margin-top:12px;
      }
+
+     .mission-icons{
+         margin-right:20px;
+         align-content: center;
+     }
+     .mission-icon{
+         box-shadow: 0px 0px 0px 0px #ffffff;
+     }
+     .icon-3{
+        padding-left:9px;
+     }
+     .icon-2{
+        padding-left:9px; 
+     }
+     .vision-p{
+        text-align: center !important;
+     }
+    
+     .mission-p{
+        text-align: center;
+     }
+     
+     .h5-vision, .h5-mission, .h5-people{
+        text-align: center;
+     }
+     .about-hr{
+         position: relative;
+         left:-25%;
+         width:26%;
+     }
+     .vision-hr{
+         position: relative;
+         left:10%;
+         width:100px;
+     }
+     .pp{
+        position: relative;
+        left:1%;
+        width:100px;
+     }
+     .mission-hr{
+        position: relative;
+        left:12%;
+        width:100px;
+     }
+     .mission-text{
+         font-size: 10px;
+         margin-left:1px !important;
+     }
+
      .footer-text{
          font-size: 12px;
+         text-align: center;
+          
      }
  }
   
