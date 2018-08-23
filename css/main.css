@@ -318,6 +318,61 @@
     background-color:rgba(0, 0, 0, 0.25) !important;
 }
 
+#projec{
+    background: linear-gradient(rgba(27, 38, 75, 0.7), rgba(27, 38, 75, 0.7)), url('../img/project-bg-hero.png') no-repeat fixed;
+    background-size: cover;
+    height: 440px;
+}
+.projec-text{
+    padding-top:150px;
+}
+.fa-project{
+    border:1px solid #dad9d9;
+    padding:10px 10px 10px 10px ;
+}
+.project-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   
+    right: 4%;
+    height: 100%;
+    width: 92%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1B264B;
+   
+  }
+
+.project-overlay:hover .project-img {
+ display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+
+  }
+  .project-overlay:hover .project-image {
+    opacity: 0.92;
+    
+  }
+  .overlay-icon{
+      border-radius:100%;
+      border:1px solid #fcfcfc;
+      width: 230;
+      
+      padding:10px 10px 10px 10px;
+  }
+  
+  .text-pro {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
 
 
 
