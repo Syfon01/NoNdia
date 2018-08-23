@@ -629,3 +629,177 @@ li{
       float: right;
   }
 /* End of Directory Listing CSS */
+
+
+
+/* Blog Page CSS */
+#blog-body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: linear-gradient(rgba(27, 38, 75, 0.75), rgba(27, 38, 75, 0.75)), url('../img/bloghead.png') no-repeat;
+    background-size: cover;
+    height:600px;
+}
+.search {
+    width: 80px !important;
+    background:rgba(27, 38, 75, 0.75);
+    border-color: #1B264B;
+}
+.search1 {
+    background-color: #1B264B;
+    border-color: #1B264B;
+    color: #fff;
+}
+.thumbnail {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
+.head-text {
+    padding-top: 150px;
+}
+.info-text {
+    position: relative;
+    font-size: 14px;
+    color: #3C3737;
+    right: 30px;
+   
+}
+.info-mail {
+    position: relative;
+    font-size:10px;
+    right: 30px;
+    top: -20px;
+    margin-bottom: -60px;
+    color: #3C3737;
+}
+.p-text {
+    font-size: 8px;
+    color: #1B264B;
+}
+.p-text2 {
+    font-size: 12px;
+    color: #1B264B;
+}
+.p-text3 {
+    color: #333333;
+    font-size: 3px;
+}
+.vid-button {
+    background-color: #1B264B;
+    color: #fff;
+}
+.vid-button2 {
+    background-color: #1B264B;
+    color: #fff;
+    width:25px;
+    height: 10px;
+    font-size: 3px;
+    align-items: center;
+    float: right;
+    margin-top: -10px;
+}
+.p-title {
+    color: #1991EB;
+    font-size: 12px;
+}
+.p-title2 {
+    color: #1991EB;
+    font-size: 18px;
+}
+.p-title3 {
+    color: #1B264B;
+    font-size: 14px;
+    margin-bottom: -20px;
+}
+.p-title4 {
+    color: #1B264B;
+    font-size: 14px;
+    margin-bottom: -40px;
+}
+.p-title5 {
+    color: #1991EB;
+    font-size: 6px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.p-title6 {
+    font-size: 6px;
+    color: #333333;
+}
+.h-title {
+    font-size: 18px;
+    color: #1B264B;
+}
+.h-title2 {
+    font-size: 22px;
+    color: #333333;
+}
+.hub-text {
+    color: #1991EB;
+}
+.card-box {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.underlay {
+    background-color: #C5D0DE;
+    height: 170px;
+    position: relative;
+    z-index: -1;
+    margin-top: -50px;
+}
+.counter {
+    color: #3C3737;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.svg-img {
+    height: 7px;
+    width: 7px;
+    color: #1B264B;    
+}
+.svg-img1 {
+    height: 11px;
+    width: 11px;
+    color: #1B264B;
+}
+.hor-line {
+    margin-bottom: 0;
+    top: -20px;
+    margin-top: 11px;
+}
+.read-more {
+    position: relative;
+    text-align: right;
+    color: #333333;
+    left: 940px;
+
+}
+
+@media (max-width:1024px) {
+    .header{
+        background: linear-gradient(rgba(27, 38, 75, 0.75), rgba(27, 38, 75, 0.75)), url('../img/bloghead.png') no-repeat;
+        background-size: cover;
+        height:600px;
+        background-position: 50%;
+    }
+    .info-text {
+        position: relative;
+        font-size: 11px;
+        color: #3C3737;
+        right: 30px;
+    }
+    .counter {
+        color: #3C3737;
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    .read-more {
+        position: relative;
+        text-align: right;
+        color: #333333;
+        left: 180px;
+    }
+}
+/* End of Blog Page CSS */
