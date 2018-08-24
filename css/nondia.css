@@ -728,3 +728,8 @@ div.desc h6 {
 	.col-m-11 {width: 91.66%;}
 	.col-m-12 {width: 100%;}
 }
+
+.mo-head {
+	color: white;
+	background-color: #1B264B;
+}
