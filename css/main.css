@@ -388,6 +388,61 @@
     background-color:rgba(0, 0, 0, 0.25) !important;
 }
 
+#projec{
+    background: linear-gradient(rgba(27, 38, 75, 0.7), rgba(27, 38, 75, 0.7)), url('../img/project-bg-hero.png') no-repeat fixed;
+    background-size: cover;
+    height: 440px;
+}
+.projec-text{
+    padding-top:150px;
+}
+.fa-project{
+    border:1px solid #dad9d9;
+    padding:10px 10px 10px 10px ;
+}
+.project-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   
+    right: 4%;
+    height: 100%;
+    width: 92%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #1B264B;
+   
+  }
+
+.project-overlay:hover .project-img {
+ display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+
+  }
+  .project-overlay:hover .project-image {
+    opacity: 0.92;
+    
+  }
+  .overlay-icon{
+      border-radius:100%;
+      border:1px solid #fcfcfc;
+      width: 230;
+      
+      padding:10px 10px 10px 10px;
+  }
+  
+  .text-pro {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+  }
 
 
 
@@ -629,3 +684,177 @@ li{
       float: right;
   }
 /* End of Directory Listing CSS */
+
+
+
+/* Blog Page CSS */
+#blog-body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: linear-gradient(rgba(27, 38, 75, 0.75), rgba(27, 38, 75, 0.75)), url('../img/bloghead.png') no-repeat;
+    background-size: cover;
+    height:600px;
+}
+.search {
+    width: 80px !important;
+    background:rgba(27, 38, 75, 0.75);
+    border-color: #1B264B;
+}
+.search1 {
+    background-color: #1B264B;
+    border-color: #1B264B;
+    color: #fff;
+}
+.thumbnail {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
+.head-text {
+    padding-top: 150px;
+}
+.info-text {
+    position: relative;
+    font-size: 14px;
+    color: #3C3737;
+    right: 30px;
+   
+}
+.info-mail {
+    position: relative;
+    font-size:10px;
+    right: 30px;
+    top: -20px;
+    margin-bottom: -60px;
+    color: #3C3737;
+}
+.p-text {
+    font-size: 8px;
+    color: #1B264B;
+}
+.p-text2 {
+    font-size: 12px;
+    color: #1B264B;
+}
+.p-text3 {
+    color: #333333;
+    font-size: 3px;
+}
+.vid-button {
+    background-color: #1B264B;
+    color: #fff;
+}
+.vid-button2 {
+    background-color: #1B264B;
+    color: #fff;
+    width:25px;
+    height: 10px;
+    font-size: 3px;
+    align-items: center;
+    float: right;
+    margin-top: -10px;
+}
+.p-title {
+    color: #1991EB;
+    font-size: 12px;
+}
+.p-title2 {
+    color: #1991EB;
+    font-size: 18px;
+}
+.p-title3 {
+    color: #1B264B;
+    font-size: 14px;
+    margin-bottom: -20px;
+}
+.p-title4 {
+    color: #1B264B;
+    font-size: 14px;
+    margin-bottom: -40px;
+}
+.p-title5 {
+    color: #1991EB;
+    font-size: 6px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+.p-title6 {
+    font-size: 6px;
+    color: #333333;
+}
+.h-title {
+    font-size: 18px;
+    color: #1B264B;
+}
+.h-title2 {
+    font-size: 22px;
+    color: #333333;
+}
+.hub-text {
+    color: #1991EB;
+}
+.card-box {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+.underlay {
+    background-color: #C5D0DE;
+    height: 170px;
+    position: relative;
+    z-index: -1;
+    margin-top: -50px;
+}
+.counter {
+    color: #3C3737;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.svg-img {
+    height: 7px;
+    width: 7px;
+    color: #1B264B;    
+}
+.svg-img1 {
+    height: 11px;
+    width: 11px;
+    color: #1B264B;
+}
+.hor-line {
+    margin-bottom: 0;
+    top: -20px;
+    margin-top: 11px;
+}
+.read-more {
+    position: relative;
+    text-align: right;
+    color: #333333;
+    left: 940px;
+
+}
+
+@media (max-width:1024px) {
+    .header{
+        background: linear-gradient(rgba(27, 38, 75, 0.75), rgba(27, 38, 75, 0.75)), url('../img/bloghead.png') no-repeat;
+        background-size: cover;
+        height:600px;
+        background-position: 50%;
+    }
+    .info-text {
+        position: relative;
+        font-size: 11px;
+        color: #3C3737;
+        right: 30px;
+    }
+    .counter {
+        color: #3C3737;
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    .read-more {
+        position: relative;
+        text-align: right;
+        color: #333333;
+        left: 180px;
+    }
+}
+/* End of Blog Page CSS */
